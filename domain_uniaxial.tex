@@ -1,0 +1,42 @@
+\documentclass[tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
+%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\begin{document}
+\begin{tikzpicture}[scale = 1.5]
+
+   
+    % \node at (1, -0.1) {\tiny Shoreline};
+
+    \draw[->, thick, red] (0.5, 2.9) -- (0.5, 2.7);
+    \draw[->, thick, red] (1, 2.9) -- (1, 2.7);
+    \draw[->, thick, red] (1.5, 2.9) -- (1.5, 2.7);
+
+    % \draw[->, thick, red] (0.5, 1.9) -- (0.5, 1.7);
+    % \draw[->, thick, red] (1, 1.9) -- (1, 1.7);
+    % \draw[->, thick, red] (1.5, 1.9) -- (1.5, 1.7);
+
+    \draw[->, thick, red] (0.5, 0.9) -- (0.5, 0.7);
+    \draw[->, thick, red] (1, 0.9) -- (1, 0.7);
+    \draw[->, thick, red] (1.5, 0.9) -- (1.5, 0.7);
+
+    
+    \filldraw[blue] (0, 0) rectangle (0.2, 3);
+    \filldraw[blue] (1.8, 0) rectangle (2, 3);
+    \node[scale = 0.75] at (1, 2.5) { Sea ice};
+    \node[scale = 0.75] at (1, -0.1) { Shoreline};
+    \node[scale = 0.75] at (-0.7, 1.2) { Open Boundary};
+   \node[scale = 0.75] at (2.55, 1.82) {Open Water};
+    \filldraw (0,0) rectangle (2,0.1);
+    \draw (0,0) rectangle (2,3);
+
+    \draw[->] (2.7, 1.75) -- (1.9, 1.75) ;
+    \draw[->] (2.3, 0) -- (2.8, 0) node[below, scale = 0.75] {$x$};
+    \draw[->] (2.3, 0) -- (2.3, 0.5) node[left, scale = 0.75] {$y$};
+
+    \draw[-, thick] (0.2, 3) -- (1.8, 1);
+    \draw[-, thick] (0.2, 1) -- (1.8, 3);
+
+    \draw  (1.2,1.75) arc[start angle = -30, end angle=-150,radius=0.225] ;
+    \node[scale = 0.75] at (1, 1.55) {$2\theta$};
+    
+\end{tikzpicture}
+\end{document}
