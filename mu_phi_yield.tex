@@ -3,8 +3,8 @@
 \begin{document}
 \begin{tikzpicture}[scale = 1.5]
 
-    \def \m {0.46}
-    \def \n {1.14}
+    \def \m {0.2}
+    \def \n {0.9}
 
     \draw[thick, ->] (0, 0) -- (0, 1.5) node[left] {$\sigma_\mathrm{II}$};
     \draw[thick, ->] (-1, 0) -- (1, 0) node[below] {$\sigma_\mathrm{I}$};
@@ -17,13 +17,13 @@
     \draw[ blue] (0, 0) -- (1, 1*\n);
 
     \draw[blue] (0.5,0.5*\n) |-(0.75,\n*0.75) ;
-    \node[blue] at (0.66,0.95) {\small $\mu_\infty$};
+    \node[blue] at (0.66,0.78) {\small $\mu_\infty$};
 
     \draw[red] (0.75,0.75*\m) |-(0.5,\m*0.5) ;
-    \node[red] at (0.66,0.12) {\small $\mu_0$};
+    \node[red] at (0.66,0.21) {\small $\mu_0$};
 
     \draw[->, black] (-0.5, 0.5*\m) to [bend left=10] (-0.35,\n*0.35) ;
-    \node[black] at (-0.55,0.42) {\small $I_0$};
+    \node[black] at (-0.55,0.27) {\small $I$};
     \draw [fill] (0,0) circle (0.03cm);
 \end{tikzpicture}
 \end{document}
