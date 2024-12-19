@@ -1,0 +1,35 @@
+
+
+\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
+% %\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
+\usepackage{amsmath}
+\usetikzlibrary{calc,patterns,angles,quotes}
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}[scale = 4]
+    % \draw (-11.5,4) node {\textbf{A}};
+    % \draw (-1.5,4) node {\textbf{B}};
+
+
+    \draw[thick, ->] (0, 0.2)--(0, 1.5) node[right] {$p$};
+
+    \draw[thick,->] (-0.75, 1)--(0.75, 1)node[below] {$\dot{\epsilon}_\text{I}$};
+
+    \draw[thick,-, red] (-0.75, 0.5)--(0, 0.5);
+    \draw[thick,-, red] (0, 0.5)--(0, 1);
+    \draw[thick,-, red] (0,1)--(0.75, 1);
+
+
+    \draw[thick,dashed, blue] (-0.75, 0.5)--(0.2, 0.5);
+    \draw[thick,dashed, blue] (0.2, 0.5)--(0.2, 1);
+    \draw[thick,dashed, blue] (0.2,1)--(0.75, 1);
+
+    \node at (-0.2, 0.4) {$P_{max}$};
+
+    \draw [decorate,decoration={brace,amplitude=5pt,raise=0ex}]
+  (0,1) -- (0.2,1) node[above]{$\nabla \cdot u = \dot \gamma \tan \psi$};
+
+    
+\end{tikzpicture}
+
+\end{document}
