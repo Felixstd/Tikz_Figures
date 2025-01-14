@@ -1,12 +1,5 @@
-\documentclass[crop,tikz]{standalone}
 
-\usepackage{tikz}
-\usetikzlibrary{decorations.pathmorphing,decorations.markings,calc}
-\usetikzlibrary {angles,quotes}
-\usepackage{makecell}
-\usepackage{physics}
 
-\begin{document}
 \begin{tikzpicture}[scale=2][font=\sffamily]
 \foreach \x in { 0.1, 0.2,0.3, 0.4, 0.5,0.6, 0.7, 0.8, 0.9}
             \draw [color=black, fill=red!55, thick] (\x, 0) circle (0.05);
@@ -41,4 +34,3 @@
 
 
 \end{tikzpicture}
-\end{document}

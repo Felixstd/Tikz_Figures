@@ -1,7 +1,4 @@
-\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
-% %\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
-\usetikzlibrary{calc,patterns,angles,quotes}
-\begin{document}
+
 \begin{tikzpicture}[scale = 1.]
     % \draw (-11.5,4) node {\textbf{A}};
     % \draw (-1.5,4) node {\textbf{B}};
@@ -75,5 +72,3 @@
     % \node at (0, 6)  {\LARGE (a) $\psi > 0$};
 
 \end{tikzpicture}
-
-\end{document}

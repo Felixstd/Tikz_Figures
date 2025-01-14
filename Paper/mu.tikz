@@ -1,10 +1,4 @@
-%
-% Used Python finally, but this code work. 
-%
 
-\documentclass[border=2pt]{standalone}
-\usepackage{pgfplots}
-\begin{document}
 
 \begin{tikzpicture}
 \begin{semilogxaxis}[
@@ -34,4 +28,4 @@
 
 \end{semilogxaxis}
 \end{tikzpicture}
-\end{document}
+% \end{document}

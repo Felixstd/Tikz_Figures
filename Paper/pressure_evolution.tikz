@@ -1,7 +1,4 @@
-\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
-% %\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
-\usetikzlibrary{calc,patterns,angles,quotes}
-\begin{document}
+
 \begin{tikzpicture}[scale = 1.5]
     % \draw (-11.5,4) node {\textbf{A}};
     % \draw (-1.5,4) node {\textbf{B}};
@@ -138,5 +135,5 @@
     
     \draw[->, line width = 2mm] (5.5, 3+\c) -- (7.8,3+\c);
 \end{tikzpicture}
-\end{document}
+
 

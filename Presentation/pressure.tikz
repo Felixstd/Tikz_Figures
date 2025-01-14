@@ -1,11 +1,6 @@
 
 
-\documentclass[crop,tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
-% %\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
-\usepackage{amsmath}
-\usetikzlibrary{calc,patterns,angles,quotes}
-\usetikzlibrary{decorations.pathreplacing}
-\begin{document}
+
 \begin{tikzpicture}[scale = 4]
     % \draw (-11.5,4) node {\textbf{A}};
     % \draw (-1.5,4) node {\textbf{B}};
@@ -32,4 +27,3 @@
     
 \end{tikzpicture}
 
-\end{document}

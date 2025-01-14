@@ -1,6 +1,4 @@
-\documentclass[tikz]{standalone}% 'crop' is the default for v1.0, before it was 'preview'
-%\usetikzlibrary{...}% tikz package already loaded by 'tikz' option
-\begin{document}
+
 \begin{tikzpicture}[scale = 1.5]
 
    
@@ -40,4 +38,3 @@
     \node[scale = 0.75] at (1, 1.55) {$2\theta$};
     
 \end{tikzpicture}
-\end{document}
